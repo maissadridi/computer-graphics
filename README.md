@@ -180,3 +180,39 @@
     ```
     
     ---
+    Voici quelques ressources qui m'ont aidé à mieux comprendre les concepts utilisés dans ce programme :
+
+### 1. **OpenGL (Programmation graphique en temps réel)**
+   - **Site officiel d'OpenGL** : [https://www.opengl.org/](https://www.opengl.org/)
+     - Documentation, spécifications et tutoriels officiels pour OpenGL.
+
+   - **LearnOpenGL** : [https://learnopengl.com/](https://learnopengl.com/)
+     - Ce site propose des tutoriels très complets sur OpenGL, de l'initiation à des sujets avancés comme les shaders, la gestion des matrices, et les transformations 3D. Il couvre toutes les étapes nécessaires pour créer une application comme celle que tu as développée.
+
+### 2. **GLFW (Gestion des fenêtres et des événements utilisateur)**
+   - **Documentation GLFW** : [https://www.glfw.org/documentation.html](https://www.glfw.org/documentation.html)
+     - GLFW est une bibliothèque qui te permet de créer des fenêtres OpenGL et de gérer les entrées utilisateur. Cette documentation te montre comment initialiser GLFW, créer une fenêtre, et gérer les événements clavier/souris.
+
+   - **GLFW Tutorial** : [GLFW Documentation - Quick Start](https://www.glfw.org/docs/latest/quick.html)
+     - Un guide rapide pour débuter avec GLFW.
+
+### 3. **GLEW (Gestion des extensions OpenGL)**
+   - **Documentation GLEW** : [http://glew.sourceforge.net/](http://glew.sourceforge.net/)
+     - GLEW est une bibliothèque qui permet d'accéder aux fonctionnalités les plus récentes d'OpenGL. Elle gère les extensions OpenGL et simplifie leur utilisation.
+
+### 4. **GLM (Gestion des matrices et vecteurs en C++)**
+   - **Documentation GLM** : [https://glm.g-truc.net/0.9.9/index.html](https://glm.g-truc.net/0.9.9/index.html)
+     - GLM est une bibliothèque mathématique inspirée de la spécification GLSL, elle est très utilisée pour les calculs de matrices 3D, comme les transformations de vue (caméra), la projection et les rotations.
+
+   - **GLM Tutorial** : [https://learnopengl.com/Getting-started/Transformations](https://learnopengl.com/Getting-started/Transformations)
+     - Ce tutoriel explique comment utiliser les matrices de transformation (comme `glm::rotate`, `glm::translate`, `glm::perspective`) pour manipuler des objets en 3D.
+
+### 5. **Shaders (Programmation GPU)**
+   - **OpenGL Shading Language (GLSL) Documentation** : [https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language](https://www.khronos.org/opengl/wiki/OpenGL_Shading_Language)
+     - GLSL est le langage utilisé pour écrire des shaders (vertex et fragment). Cette documentation détaille le fonctionnement des shaders et explique comment écrire et utiliser ces petits programmes pour le rendu graphique.
+
+   - **Shader Toy** : [https://www.shadertoy.com/](https://www.shadertoy.com/)
+     - Un excellent site pour expérimenter avec des shaders, visualiser en temps réel leur rendu, et apprendre à créer des effets graphiques avancés.
+
+---
+https://www.youtube.com/@TheCherno
